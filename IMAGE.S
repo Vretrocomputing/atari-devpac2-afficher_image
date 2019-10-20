@@ -8,7 +8,7 @@
 	trap	#14		;XBIOS
 	add.l	#12,sp
 
-	DC.W	$a00a		;Line A 10 : Cacher souris
+	DC.W	$a00a		;Line A 10 : Cacher la souris
 
 	move.l	#pi1+2,-(sp)	;Nouvelle palette
 	move.w	#6,-(sp)	;Setpalette
