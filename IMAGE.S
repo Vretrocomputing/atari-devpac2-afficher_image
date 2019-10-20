@@ -1,7 +1,7 @@
 ; Afficher une image en assembleur sur Atari ST
 ; Par Vretrocomputing, 2019.
 
-	clr.w	-(sp)		;Basse r‚solution
+	clr.w	-(sp)		;Basse rÃ©solution
 	move.l	#-1,-(sp)	;Ne pas changer l'adresse physique
 	move.l	#-1,-(sp)	;Ne pas changer l'adresse logique
 	move.w	#5,-(sp)	;Setscreen
